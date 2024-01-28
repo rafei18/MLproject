@@ -1,7 +1,6 @@
 import os
 import sys
-#from exception import CustomException
-#from logger import logging
+
 sys.path.append('/Users/tchouar/Downloads/mlproject/src')
 from logger import logging
 from exception import CustomException
@@ -16,7 +15,6 @@ from dataclasses import dataclass
 @dataclass
 class DataIngestionConfig:
     train_data_path: str=os.path.join('artifacts',"train.csv") 
-    #print(train_data_path)
     test_data_path: str=os.path.join('artifacts',"test.csv")
     raw_data_path: str=os.path.join('artifacts',"data.csv")
 
