@@ -19,7 +19,7 @@ from model_trainer import ModelTrainer
 
  
 @dataclass
-class DataIngestionConfig:
+class DataIngestionConfig:   
     train_data_path: str=os.path.join('artifacts',"train.csv") 
     test_data_path: str=os.path.join('artifacts',"test.csv")
     raw_data_path: str=os.path.join('artifacts',"data.csv")
