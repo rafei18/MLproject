@@ -1,4 +1,4 @@
-# END TO END machine learning project
+# END TO END Data Science Project project
 
 ## Student Performance Indicator Dataset 
 
