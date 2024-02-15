@@ -4,8 +4,7 @@
 
 ### Approach for the project 
 
-
-1. Data ingestion:
+1. Data ingestion :
    - In this phase, the dataset is read from a CSV file.
    - Then the data is split into training and testing and saved in a file.
 
@@ -26,4 +25,6 @@
       
 6. AWS Deployement :
    - Using AWS Elastic Beanstalk.
+ 
+
  
